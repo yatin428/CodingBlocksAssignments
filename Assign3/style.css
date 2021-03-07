@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://images8.alphacoders.com/110/thumb-1920-1102284.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+button {
+    border: 3px solid #fff;
+    background: none;
+    cursor: pointer;
+    font: 300 2em serif;
+    margin: 0.3em;
+    padding: 0.2em 1em;
+    transition: 0.25s;
+    color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+    button:hover, button:focus {
+        border-color: #35a7ff;
+        color: #35a7ff;
+    }
+
+.raise:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #35a7ff;
+    transform: translateY(-0.25em);
+    color: #35a7ff;
+}
